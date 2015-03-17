@@ -480,4 +480,11 @@ public function  vivalasvegasAction()
 {
     return $this->render('default/viva-las-vegas.html.twig');
 }   
+/**
+ * @Route("/gonna.html", name="gonna")
+ */
+public function  gonnaAction()
+{
+    return $this->render('default/gonna.html.twig');
+}
 }
