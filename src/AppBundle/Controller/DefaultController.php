@@ -708,4 +708,14 @@ public function  polakwyjatkowyAction()
     {
         return $this->render('default/holygrail.html.twig');
     }
+     /*
+     * ZZZ
+     */
+    /**
+ * @Route("/jola.html", name="jola")
+ */
+public function jolaAction()
+{
+    return $this->render('default/jola.html.twig');
+}
 }
